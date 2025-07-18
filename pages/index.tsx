@@ -185,9 +185,10 @@ export default function Home() {
 
                   {/* Download Button */}
                   <motion.a
-                    href="/downloads/EyeCareInstaller.exe"
-                    download
+                    href="https://github.com/eyecare-app/eyecare-app.github.io/releases/download/v1.0.0/EyeCareInstaller.exe"
                     className="hidden md:block px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors shadow-lg"
+                    target="_blank"
+                    rel="noopener noreferrer"
                   >
                     Download for Windows
                   </motion.a>
@@ -234,9 +235,10 @@ export default function Home() {
 
                 {/* Download Button */}
                 <motion.a
-                  href="/downloads/EyeCareInstaller.exe"
-                  download
+                  href="https://github.com/eyecare-app/eyecare-app.github.io/releases/download/v1.0.0/EyeCareInstaller.exe"
                   className="hidden md:block px-4 py-2 rounded-lg text-sm font-medium bg-blue-600 text-white hover:bg-blue-700 transition-colors shadow-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Download for Windows
                 </motion.a>
@@ -314,9 +316,10 @@ export default function Home() {
                 className="flex flex-col sm:flex-row items-center justify-center gap-4"
               >
                 <motion.a
-                  href="/downloads/EyeCareInstaller.exe"
-                  download
+                  href="https://github.com/eyecare-app/eyecare-app.github.io/releases/download/v1.0.0/EyeCareInstaller.exe"
                   className="btn btn-primary font-sans text-lg px-8 py-3 bg-blue-600 text-white hover:bg-blue-700 transition-colors shadow-lg"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Download for Windows
                 </motion.a>
